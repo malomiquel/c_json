@@ -1,0 +1,255 @@
+{
+  "cells": [
+    {
+      "type": "link",
+      "source": {
+        "type": "generator",
+        "position": { "x": 410, "y": 310 },
+        "size": { "width": 60, "height": 60 },
+        "angle": 0,
+        "data": {
+          "standardGeneratorName": "generateur",
+          "standardGeneratorSource": "jkl",
+          "standardGeneratorNiveauTension": "544",
+          "standardGeneratorTypeSimu": "54564",
+          "standardGeneratorDephasageTension": "54",
+          "standardGeneratorTension": "56",
+          "standardGeneratorStockageEnergie": "4",
+          "standardGeneratorMinP": "654",
+          "standardGeneratorMaxP": "564",
+          "standardGeneratorMinQ": "564", 
+          "standardGeneratorMaxQ": "54",
+          "standardGeneratorType": "54",
+          "standardGeneratorResistanceReactance": "5",
+          "standardGeneratorFacteurPuissance": "4",
+          "standardGeneratorPuissanceApparente": "5",
+          "puissanceApparenteUnit": "MVA",
+          "standardGeneratorTensionOperation": "1",
+          "tensionOperationUnit": "kV",
+          "standardGeneratorSustainedSce": "1",
+          "standardGeneratorSsr": "2",
+          "standardGeneratorSsrBis": "1",
+          "standardGeneratorInternalReactance": "2",
+          "standardGeneratorTensionMax": "1",
+          "standardGeneratorAlias": "",
+          "standardGeneratorZone": "",
+          "standardGeneratorSubstation": "",
+          "standardGeneratorEtat": "Sélectionnez un Etat"
+        },
+        "isSelected": false,
+        "id": "8858043e-d79e-4de7-8087-cc4b9d5e83ef",
+        "z": 2,
+        "attrs": {
+          "body": {
+            "stroke": "none",
+            "fill": {
+              "type": "pattern",
+              "attrs": {
+                "width": 60,
+                "height": 60,
+                "stroke-width": 2,
+                "stroke": "#000000",
+                "fill": "none"
+              },
+              "markup": [
+                {
+                  "tagName": "ellipse",
+                  "attributes": {
+                    "cx": "30",
+                    "cy": "30",
+                    "rx": "29",
+                    "ry": "29"
+                  }
+                },
+                {
+                  "tagName": "path",
+                  "attributes": {
+                    "d": "M10 30 A 8, 10 0, 0, 1 30, 30 A 8, 10 0, 0, 0 50, 30"
+                  }
+                }
+              ]
+            },
+            "width": "calc(w)",
+            "height": "calc(h)"
+          }
+        }
+      },
+      "target": { "id": "3f8c89b3-7cd9-403b-a45e-36a5dbe1830b" },
+      "id": "a51fa09a-53a7-4c64-8676-1294d10fcf81",
+      "z": 1,
+      "attrs": {}
+    },
+    {
+      "type": "generator",
+      "position": { "x": 410, "y": 310 },
+      "size": { "width": 60, "height": 60 },
+      "angle": 0,
+      "data": {
+        "standardGeneratorName": "generateur",
+        "standardGeneratorSource": "jkl",
+        "standardGeneratorNiveauTension": "544",
+        "standardGeneratorTypeSimu": "54564",
+        "standardGeneratorDephasageTension": "54",
+        "standardGeneratorTension": "56",
+        "standardGeneratorStockageEnergie": "4",
+        "standardGeneratorMinP": "654",
+        "standardGeneratorMaxP": "564",
+        "standardGeneratorMinQ": "564",
+        "standardGeneratorMaxQ": "54",
+        "standardGeneratorType": "54",
+        "standardGeneratorResistanceReactance": "5",
+        "standardGeneratorFacteurPuissance": "4",
+        "standardGeneratorPuissanceApparente": "5",
+        "puissanceApparenteUnit": "MVA",
+        "standardGeneratorTensionOperation": "1",
+        "tensionOperationUnit": "kV",
+        "standardGeneratorSustainedSce": "1",
+        "standardGeneratorSsr": "2",
+        "standardGeneratorSsrBis": "1",
+        "standardGeneratorInternalReactance": "2",
+        "standardGeneratorTensionMax": "1",
+        "standardGeneratorAlias": "",
+        "standardGeneratorZone": "",
+        "standardGeneratorSubstation": "",
+        "standardGeneratorEtat": "Sélectionnez un Etat"
+      },
+      "isSelected": false,
+      "id": "8858043e-d79e-4de7-8087-cc4b9d5e83ef",
+      "z": 2,
+      "attrs": {
+        "body": {
+          "stroke": "none",
+          "fill": {
+            "type": "pattern",
+            "attrs": {
+              "width": 60,
+              "height": 60,
+              "stroke-width": 2,
+              "stroke": "#000000",
+              "fill": "none"
+            },
+            "markup": [
+              {
+                "tagName": "ellipse",
+                "attributes": { "cx": "30", "cy": "30", "rx": "29", "ry": "29" }
+              },
+              {
+                "tagName": "path",
+                "attributes": {
+                  "d": "M10 30 A 8, 10 0, 0, 1 30, 30 A 8, 10 0, 0, 0 50, 30"
+                }
+              }
+            ]
+          },
+          "width": "calc(w)",
+          "height": "calc(h)"
+        }
+      }
+    },
+    {
+      "type": "busV",
+      "size": { "width": 3, "height": 260 },
+      "data": {
+        "busName": "fze",
+        "busNiveauTension": "54",
+        "busPhase": "jfnze",
+        "busTensionVref": "1",
+        "busTensionInit": "54545",
+        "busAngleInit": "4",
+        "busPhaseDefault": "54",
+        "busCourantCcMax": "4",
+        "busTempsSimulation": "53",
+        "busAlias": "",
+        "busZone": "",
+        "busSubstation": "",
+        "busEtat": "Sélectionnez un Etat"
+      },
+      "markup": [
+        { "tagName": "rect", "selector": "body" },
+        { "tagName": "rect", "selector": "left" },
+        { "tagName": "rect", "selector": "right" }
+      ],
+      "position": { "x": 760, "y": 220 },
+      "angle": 0,
+      "id": "3f8c89b3-7cd9-403b-a45e-36a5dbe1830b",
+      "z": 3,
+      "embeds": ["42dcfa8d-f240-4b39-b83b-6e1941d1f539"],
+      "attrs": {}
+    },
+    {
+      "type": "busV",
+      "size": { "width": 3, "height": 300 },
+      "data": {
+        "busName": "fdzrf",
+        "busNiveauTension": "544",
+        "busPhase": "45",
+        "busTensionVref": "6",
+        "busTensionInit": "54",
+        "busAngleInit": "5",
+        "busPhaseDefault": "45",
+        "busCourantCcMax": "-1",
+        "busTempsSimulation": "5",
+        "busAlias": "",
+        "busZone": "",
+        "busSubstation": "",
+        "busEtat": "Sélectionnez un Etat"
+      },
+      "markup": [
+        { "tagName": "rect", "selector": "body" },
+        { "tagName": "rect", "selector": "left" },
+        { "tagName": "rect", "selector": "right" }
+      ],
+      "position": { "x": 1140, "y": 210 },
+      "angle": 0,
+      "id": "f8b5040f-7217-4e20-83a7-76741571ba62",
+      "z": 4,
+      "attrs": {}
+    },
+    {
+      "type": "transformer",
+      "source": { "id": "3f8c89b3-7cd9-403b-a45e-36a5dbe1830b" },
+      "target": { "id": "f8b5040f-7217-4e20-83a7-76741571ba62" },
+      "data": {
+        "transformerName": "5465",
+        "transformerNoeudStart": "45",
+        "transformerNoeudEnd": "4",
+        "transformerNiveauTension": "545645",
+        "transformerPhase": "564",
+        "transformerCapaciteC1": "54",
+        "transformerCapaciteC2": "54",
+        "transformerRihd": "54",
+        "transformerRrrh": "54",
+        "transformerTnp": "54",
+        "transformerTns": "564",
+        "transformerPan": "51",
+        "transformerTensionCcUcc": "54",
+        "transformerPerteCuivre": "54",
+        "transformerPerteFer": "54",
+        "transformerCourantVide": "54",
+        "transformerDephasagePhi": "554",
+        "transformerGroupVecteur": "551",
+        "transformerAlias": "",
+        "stransformerZone": "",
+        "transformerSubstation": "",
+        "transformerEtat": "Sélectionnez un Etat"
+      },
+      "isSelected": false,
+      "markup": [
+        { "tagName": "path", "selector": "line" },
+        { "tagName": "path", "selector": "crossing" }
+      ],
+      "id": "42dcfa8d-f240-4b39-b83b-6e1941d1f539",
+      "z": 5,
+      "parent": "3f8c89b3-7cd9-403b-a45e-36a5dbe1830b",
+      "attrs": {}
+    },
+    {
+      "type": "charge",
+      "source": { "id": "f8b5040f-7217-4e20-83a7-76741571ba62" },
+      "target": { "x": 1480, "y": 370 },
+      "id": "18e2d1c1-a50b-4921-a370-b3b76584dd21",
+      "z": 6,
+      "attrs": {}
+    }
+  ]
+}
