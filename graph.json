@@ -3,192 +3,216 @@
     {
       "type": "link",
       "source": {
-        "type": "generator",
-        "position": { "x": 410, "y": 310 },
+        "type": "slack",
+        "position": { "x": 220, "y": 220 },
         "size": { "width": 60, "height": 60 },
         "angle": 0,
         "data": {
-          "standardGeneratorName": "generateur",
-          "standardGeneratorSource": "jkl",
-          "standardGeneratorNiveauTension": "544",
-          "standardGeneratorTypeSimu": "54564",
-          "standardGeneratorDephasageTension": "54",
-          "standardGeneratorTension": "56",
-          "standardGeneratorStockageEnergie": "4",
-          "standardGeneratorMinP": "654",
-          "standardGeneratorMaxP": "564",
-          "standardGeneratorMinQ": "564", 
-          "standardGeneratorMaxQ": "54",
-          "standardGeneratorType": "54",
-          "standardGeneratorResistanceReactance": "5",
-          "standardGeneratorFacteurPuissance": "4",
-          "standardGeneratorPuissanceApparente": "5",
-          "puissanceApparenteUnit": "MVA",
-          "standardGeneratorTensionOperation": "1",
-          "tensionOperationUnit": "kV",
-          "standardGeneratorSustainedSce": "1",
-          "standardGeneratorSsr": "2",
-          "standardGeneratorSsrBis": "1",
-          "standardGeneratorInternalReactance": "2",
-          "standardGeneratorTensionMax": "1",
-          "standardGeneratorAlias": "",
-          "standardGeneratorZone": "",
-          "standardGeneratorSubstation": "",
-          "standardGeneratorEtat": "Sélectionnez un Etat"
+          "slackGeneratorName": "jhfdz",
+          "slackGeneratorNiveauTension": "45564",
+          "slackGeneratorMinP": "56454",
+          "slackGeneratorMaxP": "54",
+          "slackGeneratorMinQ": "54",
+          "slackGeneratorMaxQ": "5",
+          "slackGeneratorTensionU": "4564",
+          "slackGeneratorDephasage": "5454",
+          "slackGeneratorPhase": "5",
+          "slackGeneratorPccSk": "4",
+          "slackGeneratorTerre": "564",
+          "slackGeneratorRatioRX": "5",
+          "slackGeneratorTensionSk": "45",
+          "slackGeneratorRatioZOZI": "4",
+          "slackGeneratorRatioResReact": "56456",
+          "slackGeneratorAlias": "245",
+          "slackGeneratorZone": "54",
+          "slackGeneratorSubstation": "454",
+          "slackGeneratorEtat": "Hors Service"
         },
         "isSelected": false,
-        "id": "8858043e-d79e-4de7-8087-cc4b9d5e83ef",
+        "id": "7b739984-0fd5-4666-9365-4ba4447bfe6e",
         "z": 2,
         "attrs": {
           "body": {
-            "stroke": "none",
+            "stroke": "black",
             "fill": {
               "type": "pattern",
               "attrs": {
-                "width": 60,
-                "height": 60,
-                "stroke-width": 2,
+                "width": 25,
+                "height": 25,
+                "stroke-width": 1,
                 "stroke": "#000000",
                 "fill": "none"
               },
               "markup": [
                 {
-                  "tagName": "ellipse",
+                  "tagName": "rect",
                   "attributes": {
-                    "cx": "30",
-                    "cy": "30",
-                    "rx": "29",
-                    "ry": "29"
+                    "width": 25,
+                    "height": 25,
+                    "fill": "#fff",
+                    "stroke": "none"
                   }
                 },
                 {
-                  "tagName": "path",
-                  "attributes": {
-                    "d": "M10 30 A 8, 10 0, 0, 1 30, 30 A 8, 10 0, 0, 0 50, 30"
-                  }
+                  "tagName": "polyline",
+                  "attributes": { "points": "0,0 12.5,12.5 25,0" }
+                },
+                {
+                  "tagName": "polyline",
+                  "attributes": { "points": "0,12.5 12.5,0 25,12.5" }
+                },
+                {
+                  "tagName": "polyline",
+                  "attributes": { "points": "0,12.5 12.5,25 25,12.5" }
+                },
+                {
+                  "tagName": "polyline",
+                  "attributes": { "points": "0,25 12.5,12.5 25,25" }
                 }
               ]
             },
             "width": "calc(w)",
             "height": "calc(h)"
-          }
+          },
+          "label": { "text": "jhfdz" }
         }
       },
-      "target": { "id": "3f8c89b3-7cd9-403b-a45e-36a5dbe1830b" },
-      "id": "a51fa09a-53a7-4c64-8676-1294d10fcf81",
+      "target": { "id": "f4af7603-a7e8-48d9-8480-58e3ab27efa7" },
+      "router": { "name": "manhattan" },
+      "id": "6beb4194-4452-4b59-9c3a-d882adc42a97",
       "z": 1,
-      "attrs": {}
+      "attrs": {
+        "line": {
+          "targetMarker": { "r": 0, "cursor": "pointer" },
+          "sourceMarker": {
+            "type": "circle",
+            "r": 0,
+            "cx": 0,
+            "stroke": "black",
+            "strokeWidth": 2,
+            "cursor": "pointer"
+          }
+        }
+      }
     },
     {
-      "type": "generator",
-      "position": { "x": 410, "y": 310 },
+      "type": "slack",
+      "position": { "x": 220, "y": 220 },
       "size": { "width": 60, "height": 60 },
       "angle": 0,
       "data": {
-        "standardGeneratorName": "generateur",
-        "standardGeneratorSource": "jkl",
-        "standardGeneratorNiveauTension": "544",
-        "standardGeneratorTypeSimu": "54564",
-        "standardGeneratorDephasageTension": "54",
-        "standardGeneratorTension": "56",
-        "standardGeneratorStockageEnergie": "4",
-        "standardGeneratorMinP": "654",
-        "standardGeneratorMaxP": "564",
-        "standardGeneratorMinQ": "564",
-        "standardGeneratorMaxQ": "54",
-        "standardGeneratorType": "54",
-        "standardGeneratorResistanceReactance": "5",
-        "standardGeneratorFacteurPuissance": "4",
-        "standardGeneratorPuissanceApparente": "5",
-        "puissanceApparenteUnit": "MVA",
-        "standardGeneratorTensionOperation": "1",
-        "tensionOperationUnit": "kV",
-        "standardGeneratorSustainedSce": "1",
-        "standardGeneratorSsr": "2",
-        "standardGeneratorSsrBis": "1",
-        "standardGeneratorInternalReactance": "2",
-        "standardGeneratorTensionMax": "1",
-        "standardGeneratorAlias": "",
-        "standardGeneratorZone": "",
-        "standardGeneratorSubstation": "",
-        "standardGeneratorEtat": "Sélectionnez un Etat"
+        "slackGeneratorName": "jhfdz",
+        "slackGeneratorNiveauTension": "45564",
+        "slackGeneratorMinP": "56454",
+        "slackGeneratorMaxP": "54",
+        "slackGeneratorMinQ": "54",
+        "slackGeneratorMaxQ": "5",
+        "slackGeneratorTensionU": "4564",
+        "slackGeneratorDephasage": "5454",
+        "slackGeneratorPhase": "5",
+        "slackGeneratorPccSk": "4",
+        "slackGeneratorTerre": "564",
+        "slackGeneratorRatioRX": "5",
+        "slackGeneratorTensionSk": "45",
+        "slackGeneratorRatioZOZI": "4",
+        "slackGeneratorRatioResReact": "56456",
+        "slackGeneratorAlias": "245",
+        "slackGeneratorZone": "54",
+        "slackGeneratorSubstation": "454",
+        "slackGeneratorEtat": "Hors Service"
       },
       "isSelected": false,
-      "id": "8858043e-d79e-4de7-8087-cc4b9d5e83ef",
+      "id": "7b739984-0fd5-4666-9365-4ba4447bfe6e",
       "z": 2,
       "attrs": {
         "body": {
-          "stroke": "none",
+          "stroke": "black",
           "fill": {
             "type": "pattern",
             "attrs": {
-              "width": 60,
-              "height": 60,
-              "stroke-width": 2,
+              "width": 25,
+              "height": 25,
+              "stroke-width": 1,
               "stroke": "#000000",
               "fill": "none"
             },
             "markup": [
               {
-                "tagName": "ellipse",
-                "attributes": { "cx": "30", "cy": "30", "rx": "29", "ry": "29" }
+                "tagName": "rect",
+                "attributes": {
+                  "width": 25,
+                  "height": 25,
+                  "fill": "#fff",
+                  "stroke": "none"
+                }
               },
               {
-                "tagName": "path",
-                "attributes": {
-                  "d": "M10 30 A 8, 10 0, 0, 1 30, 30 A 8, 10 0, 0, 0 50, 30"
-                }
+                "tagName": "polyline",
+                "attributes": { "points": "0,0 12.5,12.5 25,0" }
+              },
+              {
+                "tagName": "polyline",
+                "attributes": { "points": "0,12.5 12.5,0 25,12.5" }
+              },
+              {
+                "tagName": "polyline",
+                "attributes": { "points": "0,12.5 12.5,25 25,12.5" }
+              },
+              {
+                "tagName": "polyline",
+                "attributes": { "points": "0,25 12.5,12.5 25,25" }
               }
             ]
           },
           "width": "calc(w)",
           "height": "calc(h)"
-        }
+        },
+        "label": { "text": "jhfdz" }
       }
     },
     {
       "type": "busV",
-      "size": { "width": 3, "height": 260 },
+      "size": { "width": 3, "height": 210 },
       "data": {
-        "busName": "fze",
+        "busName": "jhkhliu",
         "busNiveauTension": "54",
-        "busPhase": "jfnze",
-        "busTensionVref": "1",
-        "busTensionInit": "54545",
+        "busPhase": "454",
+        "busTensionVref": "65",
+        "busTensionInit": "456",
         "busAngleInit": "4",
         "busPhaseDefault": "54",
-        "busCourantCcMax": "4",
-        "busTempsSimulation": "53",
-        "busAlias": "",
-        "busZone": "",
-        "busSubstation": "",
-        "busEtat": "Sélectionnez un Etat"
+        "busCourantCcMax": "54",
+        "busTempsSimulation": "44",
+        "busAlias": "54556",
+        "busZone": "4",
+        "busSubstation": "5654",
+        "busEtat": "Défaillant"
       },
       "markup": [
         { "tagName": "rect", "selector": "body" },
         { "tagName": "rect", "selector": "left" },
         { "tagName": "rect", "selector": "right" }
       ],
-      "position": { "x": 760, "y": 220 },
+      "position": { "x": 530, "y": 140 },
       "angle": 0,
-      "id": "3f8c89b3-7cd9-403b-a45e-36a5dbe1830b",
+      "id": "f4af7603-a7e8-48d9-8480-58e3ab27efa7",
       "z": 3,
-      "embeds": ["42dcfa8d-f240-4b39-b83b-6e1941d1f539"],
+      "embeds": ["599bfdf5-073d-41e2-8a2d-69d9ca72546a"],
       "attrs": {}
     },
     {
       "type": "busV",
-      "size": { "width": 3, "height": 300 },
+      "size": { "width": 3, "height": 200 },
       "data": {
-        "busName": "fdzrf",
-        "busNiveauTension": "544",
-        "busPhase": "45",
-        "busTensionVref": "6",
-        "busTensionInit": "54",
-        "busAngleInit": "5",
-        "busPhaseDefault": "45",
-        "busCourantCcMax": "-1",
-        "busTempsSimulation": "5",
+        "busName": "6554",
+        "busNiveauTension": "56",
+        "busPhase": "4",
+        "busTensionVref": "564",
+        "busTensionInit": "5",
+        "busAngleInit": "4",
+        "busPhaseDefault": "564",
+        "busCourantCcMax": "564",
+        "busTempsSimulation": "4",
         "busAlias": "",
         "busZone": "",
         "busSubstation": "",
@@ -199,56 +223,87 @@
         { "tagName": "rect", "selector": "left" },
         { "tagName": "rect", "selector": "right" }
       ],
-      "position": { "x": 1140, "y": 210 },
+      "position": { "x": 770, "y": 140 },
       "angle": 0,
-      "id": "f8b5040f-7217-4e20-83a7-76741571ba62",
+      "id": "7c71b742-72fa-4bbe-97dc-b361b69d4cd0",
       "z": 4,
       "attrs": {}
     },
     {
       "type": "transformer",
-      "source": { "id": "3f8c89b3-7cd9-403b-a45e-36a5dbe1830b" },
-      "target": { "id": "f8b5040f-7217-4e20-83a7-76741571ba62" },
+      "source": { "id": "f4af7603-a7e8-48d9-8480-58e3ab27efa7" },
+      "target": { "id": "7c71b742-72fa-4bbe-97dc-b361b69d4cd0" },
       "data": {
-        "transformerName": "5465",
-        "transformerNoeudStart": "45",
+        "transformerName": "jhgyu",
+        "transformerNoeudStart": "4",
         "transformerNoeudEnd": "4",
-        "transformerNiveauTension": "545645",
-        "transformerPhase": "564",
-        "transformerCapaciteC1": "54",
-        "transformerCapaciteC2": "54",
+        "transformerNiveauTension": "45",
+        "transformerPhase": "456",
+        "transformerCapaciteC1": "45",
+        "transformerCapaciteC2": "4",
         "transformerRihd": "54",
         "transformerRrrh": "54",
-        "transformerTnp": "54",
-        "transformerTns": "564",
-        "transformerPan": "51",
+        "transformerTnp": "5",
+        "transformerTns": "4",
+        "transformerPan": "54",
         "transformerTensionCcUcc": "54",
-        "transformerPerteCuivre": "54",
+        "transformerPerteCuivre": "545",
         "transformerPerteFer": "54",
-        "transformerCourantVide": "54",
-        "transformerDephasagePhi": "554",
-        "transformerGroupVecteur": "551",
-        "transformerAlias": "",
-        "stransformerZone": "",
-        "transformerSubstation": "",
-        "transformerEtat": "Sélectionnez un Etat"
+        "transformerCourantVide": "45",
+        "transformerDephasagePhi": "4",
+        "transformerGroupVecteur": "54",
+        "transformerAlias": "3534",
+        "stransformerZone": "354",
+        "transformerSubstation": "5",
+        "transformerEtat": "Hors Service"
       },
       "isSelected": false,
       "markup": [
         { "tagName": "path", "selector": "line" },
         { "tagName": "path", "selector": "crossing" }
       ],
-      "id": "42dcfa8d-f240-4b39-b83b-6e1941d1f539",
+      "id": "599bfdf5-073d-41e2-8a2d-69d9ca72546a",
       "z": 5,
-      "parent": "3f8c89b3-7cd9-403b-a45e-36a5dbe1830b",
-      "attrs": {}
+      "parent": "f4af7603-a7e8-48d9-8480-58e3ab27efa7",
+      "attrs": {
+        "line": { "sourceMarker": { "r": 0 }, "targetMarker": { "r": 0 } }
+      }
     },
     {
       "type": "charge",
-      "source": { "id": "f8b5040f-7217-4e20-83a7-76741571ba62" },
-      "target": { "x": 1480, "y": 370 },
-      "id": "18e2d1c1-a50b-4921-a370-b3b76584dd21",
+      "source": { "x": 810, "y": 200 },
+      "target": { "id": "7c71b742-72fa-4bbe-97dc-b361b69d4cd0" },
+      "id": "9d4bb01c-ca0e-4d34-baf4-66df438963d1",
       "z": 6,
+      "attrs": { "line": { "targetMarker": { "r": 0, "cursor": "pointer" } } }
+    },
+    {
+      "type": "busV",
+      "size": { "width": 3, "height": 40 },
+      "data": {
+        "busAlias": "gerg",
+        "busAngleInit": "gerr",
+        "busCourantCcMax": "gqg",
+        "busName": "greeg",
+        "busNiveauTension": "75",
+        "busPhase": "357",
+        "busPhaseDefault": "375",
+        "busSubstation": "375",
+        "busTempsSimulation": "357",
+        "busTensionInit": "357",
+        "busTensionVref": "375",
+        "busZone": "375",
+        "busEtat": "357"
+      },
+      "markup": [
+        { "tagName": "rect", "selector": "body" },
+        { "tagName": "rect", "selector": "left" },
+        { "tagName": "rect", "selector": "right" }
+      ],
+      "position": { "x": 680, "y": 40 },
+      "angle": 0,
+      "id": "6a3c745a-b33d-495e-9dab-4cb69305dafb",
+      "z": 7,
       "attrs": {}
     }
   ]
