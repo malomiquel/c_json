@@ -1,0 +1,6 @@
+make.exe --dry-run --keep-going --print-directory
+make.exe: entrant dans le r�pertoire � c:/Users/m.miquel/Desktop/Projets/C �
+gcc ./src/main.c include/cJSON.h include/cJSON.c ./src/functions.c -o ./src/main
+ 
+make.exe: quittant le r�pertoire � c:/Users/m.miquel/Desktop/Projets/C �
+ 

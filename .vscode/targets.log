@@ -1,0 +1,302 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# Ceci est un logiciel libre ; voir le source pour les conditions de copie.
+# Il n'y a PAS de garantie ; tant pour une utilisation COMMERCIALE que pour
+# R�PONDRE � UN BESOIN PARTICULIER.
+
+# Ce logiciel est construit pour i386-pc-mingw32
+ 
+
+# Base de donn�es de Make, imprim�e le Thu Jul 28 15:28:42 2022
+
+# Variables
+
+# automatique
+<D = $(patsubst %/,%,$(dir $<))
+# automatique
+?F = $(notdir $?)
+# makefile
+MAKEFLAGS = Rrqp
+# automatique
+?D = $(patsubst %/,%,$(dir $?))
+# automatique
+@D = $(patsubst %/,%,$(dir $@))
+# environnement
+HOMEDRIVE = C:
+# automatique
+@F = $(notdir $@)
+# automatique
+^D = $(patsubst %/,%,$(dir $^))
+# makefile
+CURDIR := c:/Users/m.miquel/Desktop/Projets/C
+# d�faut
+SHELL := sh.exe
+# environnement
+WINDIR = C:\Windows
+# environnement
+VSCODE_NLS_CONFIG = {"locale":"fr","availableLanguages":{"*":"fr"},"_languagePackId":"8e1a08857df44efaeace20a1f4372f40.fr","_translationsConfigFile":"C:\\Users\\m.miquel\\AppData\\Roaming\\Code\\clp\\8e1a08857df44efaeace20a1f4372f40.fr\\tcf.json","_cacheRoot":"C:\\Users\\m.miquel\\AppData\\Roaming\\Code\\clp\\8e1a08857df44efaeace20a1f4372f40.fr","_resolvedLanguagePackCoreLocation":"C:\\Users\\m.miquel\\AppData\\Roaming\\Code\\clp\\8e1a08857df44efaeace20a1f4372f40.fr\\3b889b090b5ad5793f524b5d1d39fda662b96a2a","_corruptedFile":"C:\\Users\\m.miquel\\AppData\\Roaming\\Code\\clp\\8e1a08857df44efaeace20a1f4372f40.fr\\corrupted.info","_languagePackSupport":true}
+# environnement
+ONEDRIVE = C:\Users\m.miquel\OneDrive
+# environnement
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
+# makefile (de � makefile �, ligne 1)
+MAKEFILE_LIST :=  makefile
+# environnement
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environnement
+DEBUG = WARN
+# environnement
+TMP = C:\Users\M0D2F~1.MIQ\AppData\Local\Temp
+# environnement
+PROGRAMW6432 = C:\Program Files
+# environnement
+PROGRAMDATA = C:\ProgramData
+# environnement
+VSCODE_CWD = C:\Users\m.miquel\Desktop\Projets\C
+# environnement
+PATH = C:\Python310\Scripts\;C:\Python310\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\php;C:\Program Files;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Symfony;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools;C:\Program Files\CMake\bin;C:\Program Files (x86)\GnuWin32\bin;C:\MinGW\bin;C:\Users\m.miquel\AppData\Local\Microsoft\WindowsApps;C:\Users\m.miquel\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\m.miquel\AppData\Local\Programs\Git\cmd;C:\Users\m.miquel\AppData\Local\Programs\Hyper\resources\bin;C:\Users\m.miquel\AppData\Local\Programs\mongosh\;C:\Users\m.miquel\AppData\Roaming\Composer\vendor\bin;C:\Users\m.miquel\AppData\Local\GitHubDesktop\bin;C:\Users\m.miquel\AppData\Roaming\npm;C:\Users\m.miquel\AppData\Local\JetBrains\Toolbox\scripts
+# environnement
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environnement
+ZES_ENABLE_SYSMAN = 1
+# environnement
+CHOCOLATEYLASTPATHUPDATE = 132913763459439545
+# environnement
+PROCESSOR_ARCHITECTURE = x86
+# environnement
+USERPROFILE = C:\Users\m.miquel
+# environnement
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# environnement
+ALLUSERSPROFILE = C:\ProgramData
+# environnement
+NUMBER_OF_PROCESSORS = 4
+# environnement
+ELECTRON_RUN_AS_NODE = 1
+# d�faut
+.FEATURES := target-specific order-only second-expansion else-if archives
+# automatique
+%F = $(notdir $%)
+# environnement
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_2968_UQNWMNGXZNPUAGWF
+# environnement
+COMPUTERNAME = DESKTOP-ROC66E5
+# environnement
+PROGRAMFILES = C:\Program Files (x86)
+# environnement
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environnement
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environnement
+USERNAME = m.miquel
+# environnement
+PUBLIC = C:\Users\Public
+# environnement
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environnement
+VSCODE_CODE_CACHE_PATH = C:\Users\m.miquel\AppData\Roaming\Code\CachedData\3b889b090b5ad5793f524b5d1d39fda662b96a2a
+# environnement
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environnement
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# environnement
+LOGONSERVER = \\DESKTOP-ROC66E5
+# environnement
+OPENSSL_CONF = C:\Program Files\PostgreSQL\psqlODBC\etc\openssl.cnf
+# environnement
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environnement
+USERDOMAIN = DESKTOP-ROC66E5
+# d�faut
+MAKE = $(MAKE_COMMAND)
+# d�faut
+MAKECMDGOALS := all
+# d�faut
+MAKE_VERSION := 3.81
+# makefile
+.DEFAULT_GOAL := compile
+# environnement
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatique
+%D = $(patsubst %/,%,$(dir $%))
+# environnement
+LOCALAPPDATA = C:\Users\m.miquel\AppData\Local
+# environnement
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+# d�faut
+MAKE_COMMAND := make.exe
+# environnement
+PROCESSOR_ARCHITEW6432 = AMD64
+# d�faut
+.VARIABLES := 
+# automatique
+*F = $(notdir $*)
+# environnement
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 9, GenuineIntel
+# environnement
+OS = Windows_NT
+# environnement
+VSCODE_IPC_HOOK = \\.\pipe\2ef1b94aa890b153a2defd45c3fa7463-1.69.2-main-sock
+# environnement
+HOMEPATH = \Users\m.miquel
+# environnement
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environnement
+PROMPT = $P$G
+# environnement
+MFLAGS = -Rrqp
+# automatique
+*D = $(patsubst %/,%,$(dir $*))
+# environnement
+SYSTEMROOT = C:\Windows
+# automatique
++D = $(patsubst %/,%,$(dir $+))
+# automatique
++F = $(notdir $+)
+# environnement
+APPDATA = C:\Users\m.miquel\AppData\Roaming
+# environnement
+TEMP = C:\Users\M0D2F~1.MIQ\AppData\Local\Temp
+# environnement
+COMSPEC = C:\Windows\system32\cmd.exe
+# d�faut
+MAKEFILES := 
+# automatique
+<F = $(notdir $<)
+# environnement
+LC_ALL = C
+# automatique
+^F = $(notdir $^)
+# d�faut
+SUFFIXES := 
+# environnement
+SYSTEMDRIVE = C:
+# environnement
+SESSIONNAME = Console
+# environnement
+PROCESSOR_REVISION = 8e09
+# environnement
+MAKELEVEL := 0
+# environnement
+LANG = C
+# environnement
+PROCESSOR_LEVEL = 6
+# environnement
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environnement
+VSCODE_PID = 2968
+# environnement
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-ROC66E5
+# variables initialis�es dans les statistiques de  
+make.exe: *** Pas de r�gle pour fabriquer la cible � all �. Arr�t.
+
+table de hachage:
+# Charge=88/1024=9%, Refait le hachage=0, Collisions=9/108=8%
+
+# Valeurs de variable avec mod�le sp�cifique
+
+# pas de valeurs de variable avec mod�le sp�cifique
+
+# R�pertoires
+
+# C:\Program Files\Docker\Docker\resources\bin (p�riph�rique C:/Program Files/Docker/Docker/resources/bin, mtime 1654247581): 13 fichiers, non impossibilit�s.
+# C:\Users\m.miquel\AppData\Local\Programs\mongosh\ (p�riph�rique C:/Users/m.miquel/AppData/Local/Programs/mongosh/, mtime 1639060566): 8 fichiers, non impossibilit�s.
+# C:\Windows\System32\WindowsPowerShell\v1.0\ (p�riph�rique C:/Windows/System32/WindowsPowerShell/v1.0/, mtime 1605758070): 30 fichiers, non impossibilit�s.
+# C:\Windows\System32\Wbem (p�riph�rique C:/Windows/System32/Wbem, mtime 1657716795): 170 fichiers, non impossibilit�s.
+# . (p�riph�rique c:/Users/m.miquel/Desktop/Projets/C, mtime 1659014748): 8 fichiers, non impossibilit�s.
+# C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools (p�riph�rique C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools, mtime 1657528644): 14 fichiers, non impossibilit�s.
+# C:\Program Files (x86)\Symfony (p�riph�rique C:/Program Files (x86)/Symfony, mtime 1647525744): 5 fichiers, non impossibilit�s.
+# C:\ProgramData\chocolatey\bin (p�riph�rique C:/ProgramData/chocolatey/bin, mtime 1646906346): 13 fichiers, non impossibilit�s.
+# C:\Program Files\nodejs\ (p�riph�rique C:/Program Files/nodejs/, mtime 1654008089): 13 fichiers, non impossibilit�s.
+# C:\Python310\ (p�riph�rique C:/Python310/, mtime 1658923562): 18 fichiers, non impossibilit�s.
+# C:\Program Files (x86)\QuickTime\QTSystem\ (p�riph�rique C:/Program Files (x86)/QuickTime/QTSystem/, mtime 1652371529): 61 fichiers, non impossibilit�s.
+# C:\Python310\Scripts\ (p�riph�rique C:/Python310/Scripts/, mtime 1658923561): 5 fichiers, non impossibilit�s.
+# C:\MinGW\bin (p�riph�rique C:/MinGW/bin, mtime 1657529879): 59 fichiers, non impossibilit�s.
+# C:\Program Files\php (p�riph�rique C:/Program Files/php, mtime 1651651920): 41 fichiers, non impossibilit�s.
+# C:\Windows\System32\OpenSSH\ : statut indisponible.
+# C:\Windows (p�riph�rique C:/Windows, mtime 1657804685): 115 fichiers, non impossibilit�s.
+# C:\Users\m.miquel\AppData\Local\Programs\Microsoft VS Code\bin (p�riph�rique C:/Users/m.miquel/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1658743675): 4 fichiers, non impossibilit�s.
+# C:\Program Files (p�riph�rique C:/Program Files, mtime 1658919016): 49 fichiers, non impossibilit�s.
+# C:\Users\m.miquel\AppData\Roaming\npm (p�riph�rique C:/Users/m.miquel/AppData/Roaming/npm, mtime 1657531219): 52 fichiers, non impossibilit�s.
+# C:\ProgramData\DockerDesktop\version-bin : statut indisponible.
+# C:\Users\m.miquel\AppData\Roaming\Composer\vendor\bin : statut indisponible.
+# C:\Windows\system32 (p�riph�rique C:/Windows/system32, mtime 1659013769): 2930 fichiers, non impossibilit�s.
+# C:\Users\m.miquel\AppData\Local\Programs\Hyper\resources\bin : statut indisponible.
+# C:\Program Files\CMake\bin (p�riph�rique C:/Program Files/CMake/bin, mtime 1657717660): 7 fichiers, non impossibilit�s.
+# C:\Users\m.miquel\AppData\Local\Programs\Git\cmd (p�riph�rique C:/Users/m.miquel/AppData/Local/Programs/Git/cmd, mtime 1634292139): 8 fichiers, non impossibilit�s.
+# C:\Users\m.miquel\AppData\Local\GitHubDesktop\bin (p�riph�rique C:/Users/m.miquel/AppData/Local/GitHubDesktop/bin, mtime 1647518637): 4 fichiers, non impossibilit�s.
+# C:\Users\m.miquel\AppData\Local\JetBrains\Toolbox\scripts (p�riph�rique C:/Users/m.miquel/AppData/Local/JetBrains/Toolbox/scripts, mtime 1657198785): 2 fichiers, non impossibilit�s.
+# C:\Users\m.miquel\AppData\Local\Microsoft\WindowsApps (p�riph�rique C:/Users/m.miquel/AppData/Local/Microsoft/WindowsApps, mtime 1658819389): 27 fichiers, non impossibilit�s.
+# C:\Program Files (x86)\GnuWin32\bin (p�riph�rique C:/Program Files (x86)/GnuWin32/bin, mtime 1657719043): 5 fichiers, non impossibilit�s.
+
+# 3661 fichiers, non impossibilit�s dans 29 r�pertoires.
+
+# R�gles Implicites
+
+# Pas de r�gles implicites.
+
+# Fichiers
+
+# Pas une cible :
+all:
+#  Cible provenant de la ligne de commande.
+#  Recherche de r�gle implicite effectu�e.
+# Fichier inexistant.
+#  Fichier n'a pas �t� mis � jour.
+# variables initialis�es dans les statistiques de table de hachage:
+# Charge=0/32=0%, Refait le hachage=0, Collisions=0/0=0%
+
+# Pas une cible :
+.DEFAULT:
+#  Recherche de r�gle implicite n'a pas �t� effectu�e.
+#  Heure de modification jamais v�rifi�e.
+#  Fichier n'a pas �t� mis � jour.
+
+# Pas une cible :
+makefile:
+#  Recherche de r�gle implicite effectu�e.
+#  Derni�re modification 2022-07-28 15:27:10
+#  Fichier a �t� mis � jour.
+#  Mise � jour r�ussie
+# variables initialis�es dans les statistiques de table de hachage:
+# Charge=0/32=0%, Refait le hachage=0, Collisions=0/0=0%
+
+# Pas une cible :
+.SUFFIXES:
+#  Recherche de r�gle implicite n'a pas �t� effectu�e.
+#  Heure de modification jamais v�rifi�e.
+#  Fichier n'a pas �t� mis � jour.
+
+compile:
+#  Recherche de r�gle implicite n'a pas �t� effectu�e.
+#  Heure de modification jamais v�rifi�e.
+#  Fichier n'a pas �t� mis � jour.
+#  commandes � ex�cuter (de � makefile �, ligne 2):
+	gcc ./src/main.c include/cJSON.h include/cJSON.c ./src/functions.c -o ./src/main
+	
+
+run:
+#  Recherche de r�gle implicite n'a pas �t� effectu�e.
+#  Heure de modification jamais v�rifi�e.
+#  Fichier n'a pas �t� mis � jour.
+#  commandes � ex�cuter (de � makefile �, ligne 5):
+	./src/main.exe
+	
+
+# statistiques des fichiers de la table de hachage:
+# Charge=6/1024=1%, Refait le hachage=0, Collisions=0/17=0%
+# Chemins de Recherche VPATH
+
+# Pas de chemins de recherche � vpath �.
+
+# Pas de chemin de recherche g�n�ral (variable � VPATH �).
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Fin de la base de donn�es de Make le Thu Jul 28 15:28:42 2022
+
+ 
