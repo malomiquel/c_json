@@ -2,16 +2,16 @@
 
 // Initialisation de des variables globales
 int number_bus;
+int number_line;
 int number_slack;
 int number_generator;
-int number_load;
-int number_line;
 int number_transformer;
+int number_load;
 
 // Appel des fonctions
-void bus(cJSON *cell, cJSON *data, cJSON *bus_object);
-void line(cJSON *cell, cJSON *data, cJSON *line_object);
-void slack(cJSON *cell, cJSON *data, cJSON *slack_object);
-void generator(cJSON *cell, cJSON *data, cJSON *generator_object);
-void transformer(cJSON *cell, cJSON *data, cJSON *transformer_object);
-void load(cJSON *cell, cJSON *data, cJSON *charge_object);
+void bus(cJSON *data, cJSON *bus_object);
+void line(cJSON *data, cJSON *line_object);
+void slack(cJSON *data, cJSON *slack_object);
+void generator(cJSON *data, cJSON *generator_object);
+void transformer(cJSON *data, cJSON *transformer_object);
+void load(cJSON *data, cJSON *charge_object);

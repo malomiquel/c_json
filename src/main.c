@@ -49,27 +49,27 @@ int main()
     cJSON *data = cJSON_GetObjectItem(cell, "data");
     if (strcmp(type, "busV") == 0 || strcmp(type, "busH") == 0)
     {
-      bus(cell, data, bus_object);
+      bus(data, bus_object);
     }
     if (strcmp(type, "line") == 0)
     {
-      line(cell, data, line_object);
+      line(data, line_object);
     }
     if (strcmp(type, "slack") == 0)
     {
-      slack(cell, data, slack_object);
+      slack(data, slack_object);
     }
     if (strcmp(type, "generator") == 0)
     {
-      generator(cell, data, generator_object);
+      generator(data, generator_object);
     }
     if (strcmp(type, "transformer") == 0)
     {
-      transformer(cell, data, transformer_object);
+      transformer(data, transformer_object);
     }
     if (strcmp(type, "charge") == 0)
     {
-      load(cell, data, load_object);
+      load(data, load_object);
     }
   }
 
